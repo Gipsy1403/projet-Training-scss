@@ -1,0 +1,5 @@
+@use "../abstract/variable" as v;
+
+footer{
+    background-color: v.$color-header;
+}

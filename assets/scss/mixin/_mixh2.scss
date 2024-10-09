@@ -1,0 +1,10 @@
+@use "../abstract/variable" as v;
+
+@mixin h2($bkgcolor, $rotate, $bordercolor, $color: blueviolet){
+    color:$color;
+    background-color: $bkgcolor;
+    transform : rotate($rotate);
+    font-size: 3em;
+    display:inline-block;
+    border: 1px solid $bordercolor;
+}

@@ -1,0 +1,21 @@
+@use "../abstract/variable" as v;
+
+nav{
+    background-color: v.$color-title-nav;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+        ul{
+            display: flex;
+        }
+            li{
+                margin: 0 1rem;
+                font-size: 2em;
+            }
+
+}
+
+.fa-bars{
+    display: none;
+}

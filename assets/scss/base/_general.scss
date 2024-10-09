@@ -1,0 +1,21 @@
+@use "../abstract/variable" as v;
+@use "../mixin/mixh2" as *;
+
+body{
+    font-family: "quicksand";
+}
+
+.titre1{
+    @include h2 (coral,140deg,blueviolet)
+}
+.titre2{
+    @include h2 (rgb(114, 97, 128),180deg,rgb(137, 12, 12))
+}
+
+.titre3{
+    @include h2 (rgb(25, 141, 89),10deg,rgb(47, 12, 137))
+}
+
+.titre4{
+    @include h2 (rgb(164, 43, 104),30deg,rgb(141, 183, 74))
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "quicksand";
+}
+
+.titre1 {
+  color: blueviolet;
+  background-color: coral;
+  transform: rotate(140deg);
+  font-size: 3em;
+  display: inline-block;
+  border: 1px solid blueviolet;
+}
+
+.titre2 {
+  color: blueviolet;
+  background-color: rgb(114, 97, 128);
+  transform: rotate(180deg);
+  font-size: 3em;
+  display: inline-block;
+  border: 1px solid rgb(137, 12, 12);
+}
+
+.titre3 {
+  color: blueviolet;
+  background-color: rgb(25, 141, 89);
+  transform: rotate(10deg);
+  font-size: 3em;
+  display: inline-block;
+  border: 1px solid rgb(47, 12, 137);
+}
+
+.titre4 {
+  color: blueviolet;
+  background-color: rgb(164, 43, 104);
+  transform: rotate(30deg);
+  font-size: 3em;
+  display: inline-block;
+  border: 1px solid rgb(141, 183, 74);
+}
+
+@font-face {
+  font-family: "quicksand";
+  src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
+header {
+  color: #153131;
+}
+
+nav {
+  background-color: #6A7FDB;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin: 0 1rem;
+  font-size: 2em;
+}
+
+.fa-bars {
+  display: none;
+}
+
+footer {
+  background-color: #153131;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .menudropdown:hover ul {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
